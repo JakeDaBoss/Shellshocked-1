@@ -6,29 +6,48 @@ local FACTION = Clockwork.faction:New("Drifter");
 
 FACTION.useFullName = true;
 -- FACTION.material = "halfliferp/factions/citizen"; <-- Does this need changing? If not, let me know.
---[[ FACTION.models = {
+FACTION.models = {
 	female = {
-		"models/humans/group17/female_01.mdl",
-		"models/humans/group17/female_02.mdl",
-		"models/humans/group17/female_03.mdl",
-		"models/humans/group17/female_04.mdl",
-		"models/humans/group17/female_06.mdl",
-		"models/humans/group17/female_07.mdl"
+		"models/cakez/dust/civilians/female/female_05.mdl",
+		"models/cakez/dust/civilians/female/female_07.mdl",
+		"models/cakez/dust/civilians/female/female_08.mdl",
+		"models/cakez/dust/civilians/female/female_10.mdl",
+		"models/cakez/dust/civilians/female/female_11.mdl",
+		"models/cakez/dust/civilians/female/female_12.mdl",
+		"models/cakez/dust/civilians/female/female_15.mdl",
+		"models/cakez/dust/civilians/female/female_17.mdl",
+		"models/cakez/dust/civilians/female/female_19.mdl",
+		"models/cakez/dust/civilians/female/female_20.mdl",
+		"models/cakez/dust/civilians/female/female_22.mdl",
+		"models/cakez/dust/civilians/female/female_23.mdl",
+		"models/cakez/dust/civilians/female/female_24.mdl",
+		"models/cakez/dust/civilians/female/female_25.mdl",
+		"models/cakez/dust/civilians/female/female_26.mdl",
+		"models/cakez/dust/civilians/female/female_27.mdl"
 	},
 	male = {
-		"models/humans/group17/male_01.mdl",
-		"models/humans/group17/male_02.mdl",
-		"models/humans/group17/male_03.mdl",
-		"models/humans/group17/male_04.mdl",
-		"models/humans/group17/male_05.mdl",
-		"models/humans/group17/male_06.mdl",
-		"models/humans/group17/male_07.mdl",
-		"models/humans/group17/male_08.mdl",
-		"models/humans/group17/male_09.mdl"
+		"models/cakez/dust/civilians/male/male_10.mdl",
+ 		"models/cakez/dust/civilians/male/male_11.mdl",
+		"models/cakez/dust/civilians/male/male_12.mdl",
+		"models/cakez/dust/civilians/male/male_13.mdl",
+		"models/cakez/dust/civilians/male/male_14.mdl",
+		"models/cakez/dust/civilians/male/male_15.mdl",
+		"models/cakez/dust/civilians/male/male_16.mdl",
+		"models/cakez/dust/civilians/male/male_17.mdl",
+		"models/cakez/dust/civilians/male/male_18.mdl",
+		"models/cakez/dust/civilians/male/male_22.mdl",
+		"models/cakez/dust/civilians/male/male_23.mdl",
+		"models/cakez/dust/civilians/male/male_24.mdl",
+		"models/cakez/dust/civilians/male/male_25.mdl",
+		"models/cakez/dust/civilians/male/male_26.mdl",
+		"models/cakez/dust/civilians/male/male_30.mdl",
+		"models/cakez/dust/civilians/male/male_31.mdl",
+		"models/cakez/dust/civilians/male/male_32.mdl",
+		"models/cakez/dust/civilians/male/male_42.mdl",
+		"models/cakez/dust/civilians/male/male_43.mdl",
+		"models/cakez/dust/civilians/male/male_44.mdl",
 	};
 };
-
-<< These are the models that require the insurgency models. TBI. >>
 --]]
 
 -- Called when a player is transferred to the faction.
