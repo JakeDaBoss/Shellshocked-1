@@ -3,52 +3,7 @@
 	without permission of its author (kurozael@gmail.com).
 --]]
 
-Schema.scannerSounds = {
-	"npc/scanner/cbot_servochatter.wav",
-	"npc/scanner/cbot_servoscared.wav",
-	"npc/scanner/scanner_blip1.wav",
-	"npc/scanner/scanner_scan1.wav",
-	"npc/scanner/scanner_scan2.wav",
-	"npc/scanner/scanner_scan4.wav",
-	"npc/scanner/scanner_scan5.wav",
-	"npc/scanner/combat_scan1.wav",
-	"npc/scanner/combat_scan2.wav",
-	"npc/scanner/combat_scan3.wav",
-	"npc/scanner/combat_scan4.wav",
-	"npc/scanner/combat_scan5.wav"
-};
-Schema.scanners = {};
-Schema.cwuProps = {
-	"models/props_c17/furniturewashingmachine001a.mdl",
-	"models/props_interiors/furniture_vanity01a.mdl",
-	"models/props_interiors/furniture_couch02a.mdl",
-	"models/props_interiors/furniture_shelf01a.mdl",
-	"models/props_interiors/furniture_chair01a.mdl",
-	"models/props_interiors/furniture_desk01a.mdl",
-	"models/props_interiors/furniture_lamp01a.mdl",
-	"models/props_c17/furniturecupboard001a.mdl",
-	"models/props_c17/furnituredresser001a.mdl",
-	"props/props_c17/furniturefridge001a.mdl",
-	"models/props_c17/furniturestove001a.mdl",
-	"models/props_interiors/radiator01a.mdl",
-	"props/props_c17/furniturecouch001a.mdl",
-	"models/props_combine/breenclock.mdl",
-	"props/props_combine/breenchair.mdl",
-	"models/props_c17/shelfunit01a.mdl",
-	"props/props_combine/breendesk.mdl",
-	"models/props_lab/monitor01b.mdl",
-	"models/props_lab/monitor01a.mdl",
-	"models/props_lab/monitor02.mdl",
-	"models/props_c17/frame002a.mdl",
-	"models/props_c17/bench01a.mdl"
-};
-
-Clockwork.kernel:AddFile("resource/fonts/mailartrubberstamp.ttf");
-Clockwork.kernel:AddFile("models/eliteghostcp.mdl");
-Clockwork.kernel:AddFile("models/eliteshockcp.mdl");
-Clockwork.kernel:AddFile("models/policetrench.mdl");
-Clockwork.kernel:AddFile("models/leet_police2.mdl");
-Clockwork.kernel:AddFile("models/sect_police2.mdl");
+--[[ Clockwork.kernel:AddFile("resource/fonts/mailartrubberstamp.ttf"); This needs a different one, unless you guys were sure you wanted to do this.--]] 
 
 Clockwork.kernel:AddDirectory("materials/models/humans/female/group01/cityadm_sheet.*");
 Clockwork.kernel:AddDirectory("materials/models/humans/male/group01/cityadm_sheet.*");
@@ -63,12 +18,10 @@ Clockwork.kernel:AddDirectory("models/lagmite/");
 Clockwork.kernel:AddDirectory("models/deadbodies/");
 
 Clockwork.config:Add("server_whitelist_identity", "");
-Clockwork.config:Add("combine_lock_overrides", false);
 Clockwork.config:Add("intro_text_small", "It is safer here.", true);
 Clockwork.config:Add("intro_text_big", "CITY EIGHTEEN, 2016.", true);
 Clockwork.config:Add("knockout_time", 60);
 Clockwork.config:Add("business_cost", 160, true);
-Clockwork.config:Add("cwu_props", true);
 Clockwork.config:Add("permits", true, true);
 
 Clockwork.config:Get("enable_gravgun_punt"):Set(false);
