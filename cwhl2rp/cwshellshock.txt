@@ -1,0 +1,9 @@
+"cwshellshock"
+{
+	"title"			"Shellshocked"
+	"author"		"kurozael"
+	"description"	"A roleplaying schema developed by Shellshock community set in post-WW3 survival."
+	"version"		"0.1"
+	"menusystem"	"1"
+	"workshopid"	"913824910"
+}
