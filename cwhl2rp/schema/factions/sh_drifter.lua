@@ -1,6 +1,5 @@
 --[[
-	© 2013 CloudSixteen.com do not share, re-distribute or modify
-	without permission of its author (kurozael@gmail.com).
+	© 2017 Shellshock-RP. Do not redistribute without written consent. Created by Jake.
 --]]
 
 local FACTION = Clockwork.faction:New("Drifter");
