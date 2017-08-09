@@ -1,9 +1,0 @@
-local CLASS = Clockwork.class:New("Unit");
-	CLASS.color = Color(244, 98, 66, 255);
-	CLASS.factions = {FACTION_CONSCRIPT};
-	CLASS.isDefault = true;
-	CLASS.wagesName = "Supplies";
-	CLASS.wages	= 0;
-	CLASS.description = "An IMRF platoon-unit.";
-	CLASS.defaultPhysDesc = "A drafted soldier wearing United Militia gear";
-CLASS_OFFDUTY = CLASS:Register();
